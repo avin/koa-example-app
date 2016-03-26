@@ -1,0 +1,16 @@
+{% extends "resources/views/layouts/main.html" %}
+
+{% block content %}
+    <form action="" method="post">
+        title:
+        <input type="text" name="title">
+        <hr>
+        content:
+        <input type="text" name="content">
+
+        <hr>
+        <input type="submit" value="SUBMIT">
+    </form>
+
+    <a href="/posts">back</a>
+{% endblock %}
